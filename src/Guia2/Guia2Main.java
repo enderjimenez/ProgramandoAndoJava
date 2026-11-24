@@ -32,6 +32,14 @@ public class Guia2Main {
                 Ejercicio4 ejercicio4 = new Ejercicio4();
                 ejercicio4.AccesoArreglo();
             }
+            if (subOpcion == 5) {
+                 Ejercicio5 ejercicio5 = new Ejercicio5();
+                ejercicio5.NEntre1y100();
+            }
+            if (subOpcion == 6) {
+                 Ejercicio6 ejercicio6 = new Ejercicio6();
+                ejercicio6.EscTuNombre();
+            }
         }
 
         if (opcion == 2) {
