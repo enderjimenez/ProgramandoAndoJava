@@ -14,7 +14,9 @@ public class Guia2Main {
                             "1. Ejercicio 1 - División\n" +
                             "2. Ejercicio 2 - Conversión de temperatura\n" +
                             "3. Ejercicio 3 - Calculadora de IMC\n" +
-                            "4. Ejercicio 4 - Acceso a arreglo por índice"));
+                            "4. Ejercicio 4 - Acceso a arreglo por índice" +
+                            "5. Ejercicio 5 - Validación con bucle (retry)" +
+                            "6. Ejercicio 6 - Cancelación del diálogo (NullPointerException)"));
 
             if (subOpcion == 1) {
                 Ejercicio1 ejercicio1 = new Ejercicio1();

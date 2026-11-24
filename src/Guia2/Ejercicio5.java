@@ -4,8 +4,8 @@ import javax.swing.JOptionPane;
 
 public class Ejercicio5 {
 
-}
-    public  void NEntre1y100() 
+    public  void NEntre1y100()
+
     {
         int numero = 0;
         boolean valido = false;
@@ -35,4 +35,5 @@ public class Ejercicio5 {
 
         JOptionPane.showMessageDialog(null, "Número aceptado: " + numero);
     }
+    
 }
