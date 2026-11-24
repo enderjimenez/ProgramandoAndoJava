@@ -5,7 +5,7 @@ import java.sql.Statement;
 
 
 public class InicializarDB {
-   public static void crearTablas() {
+   public void crearTablas() {
        String sql = "CREATE TABLE IF NOT EXISTS productos (" +
                     "id       INTEGER PRIMARY KEY AUTOINCREMENT," +
                     "nombre   TEXT    NOT NULL," +
